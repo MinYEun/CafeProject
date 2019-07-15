@@ -1,0 +1,260 @@
+@charset "EUC-KR";
+
+html, body {
+	width: 100%;
+	overflow-y: hidden;
+}
+
+
+.ordercoff {
+	width: 1500px;
+	height: 800px;
+	transform: translatex(20%);
+	display: inline-block;
+	background-color: white;
+	margin-top: -9px;
+}
+
+.menu {
+	position: fixed;
+	float: left;
+	height: 100%;
+}
+
+.menu button {
+	background-color: #decac5;
+	border: 0px solid black;
+	font-size: 14px;
+}
+
+.menu_mn {
+	width: 250px;
+	height: 130px;
+	background-color: #decac5;
+/* 	padding-top: 20px; */
+	margin: 0 auto;
+	border-top: 1px solid brown;
+	border-bottom: 1px solid brown;
+}
+
+.point_mn{
+	width: 250px;
+	height: 120px;
+	background-color: #decac5;
+ 	padding-top: 10px;
+	margin: 0 auto;
+	border-bottom: 1px solid brown;
+}
+
+
+
+.staff_mn {
+	width: 250px;
+	height: 130px;
+	background-color: #decac5;
+ 	padding-top: 10px; 
+	margin-top: -20px;
+	margin: 0 auto;
+	border-bottom: 1px solid brown;
+}
+
+.cus_mn {
+	width: 250px;
+	height: 140px;
+	background-color: #decac5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	border-bottom: 1px solid brown;
+}
+
+.order_mn {
+	width: 250px;
+	height: 110px;
+	background-color: #decac5;
+	padding-top: 10px;
+	margin: 0 auto;
+	border-bottom: 1px solid brown;
+}
+
+.sal_mn {
+	width: 250px;
+	height: 100%;
+	background-color: #decac5;
+	padding-top: 10px;
+	margin: 0 auto;
+	border-bottom: 1px solid brown;
+}
+
+.status {
+	text-align: right;
+	float: right;
+	width: 1500px;
+	height: 100px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.menu_md {
+	width: 900px;
+	height: 750px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	display: inline;
+	padding-left: 50px;
+}
+
+.order_coff {
+	width: 70%;
+	height: 810px;
+	float: left;
+	position: relative;
+	overflow: auto;
+}
+
+#menu_class {
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#menu_class > button {
+	display: inline;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	margin-right: 10px;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+#menu_class > button:hover {
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+}
+
+#menu_class {
+	float: left;
+}
+/*-------------------------------------------------*/
+.list_wrap {
+	position: absolute;
+	text-align: center;
+	margin-top: 100px;
+	width: 100%;
+	heidth: 100%;
+	overflow: hidden;
+}
+
+.list_wrap > div {
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 250px;
+}
+
+.list_wrap img {
+	width: 70%;
+	height: 70%;
+}
+
+.list_wrap button{ 
+	background-color: white;
+}
+
+.order_list {
+	width: 450px;
+	height: 780px;
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 50px;                     
+	float: right;
+	border: 5px dashed gray;
+}
+
+#list{
+	height: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+
+.or_menu > div {
+	display: inline;
+}
+
+#list > div {
+	display: inline;
+}
+#price{
+	font-size: 14px;
+
+}
+
+/* 조회버튼 */
+#cus_poi {    
+	width: 70px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 15px;
+	margin: 5px;
+}
+
+/* 결제버튼 */
+#btn_p {
+	width: 80px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 15px;
+	margin: 5px;
+}
+
+
+#total {
+	width: 60%;
+	height: 20px;
+	font-size: 15px;
+}
+
+#point_use{
+	font-size: 14px;
+	display: inline;
+}
+
+#real{
+	font-size: 14px;
+}
+
+#cus_num{
+	font-size: 14px;
+}
+
+#cus{
+	display: inline;
+}
+
+#use_po{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+	height: 20px;
+	font-size: 15px;
+}
+
+#cus_ph_num{
+	margin: 5px;
+}

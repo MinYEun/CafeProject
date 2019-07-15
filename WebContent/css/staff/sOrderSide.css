@@ -1,0 +1,109 @@
+@charset "EUC-KR";
+
+<
+style > html {
+	background-color: #ebdacf;
+	overflow: hidden;
+}
+
+.order_s_m {
+	width: 70%;
+	height: 810px;
+/*	transform: translateX(30%); */
+	float: left;
+	position: relative;
+	overflow: auto;
+}
+
+#menu_class {
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#menu_class > button {
+	display: inline;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	margin-right: 10px;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+#menu_class > button:hover {
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+}
+
+
+
+#menu_class {
+	float: left;
+}
+/*-------------------------------------------------*/
+.list_wrap {
+	position: absolute;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.list_wrap > div {
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 250px;
+}
+
+.list_wrap img {
+	width: 70%;
+	height: 70%;
+}
+/*-------------------------------------------------*/
+.list_wrap2 {
+	position: absolute;
+	text-align: center;
+	margin-top: 400px;
+}
+
+.list_wrap2 > div {
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 250px;
+}
+
+.list_wrap2 img {
+	width: 70%;
+	height: 70%;
+}
+/*-------------------------------------------------*/
+.menu_order {
+	width: 30%;
+	height: 80%;
+	float: right;
+	margin-top: 45px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#btn_j {
+	width: 90px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: white;
+	border: 2px solid black;
+	transform: translateY(1100%);
+	font-size: 18px;
+}
+
+.sum {
+	transform: translateY(2400%);
+}

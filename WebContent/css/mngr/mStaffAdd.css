@@ -1,0 +1,51 @@
+@charset "EUC-KR";
+
+h1 {
+	letter-spacing: 5px;
+}
+
+.staff_add {
+	width: 1500px;
+	height: 980px;
+	transform: translatex(20%);
+	display: inline-block;
+	background-color: white;
+	margin-top: -9px;
+}
+
+#staff {
+	text-align: center;
+	padding-top: 50px;
+	height: 810px;
+}
+
+#logo {
+	margin-bottom: 40px;
+}
+
+#staff_inf {
+	width: 700px;
+	height: 150px;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#staff_inf>input {
+	margin: 30 20 20 0;
+}
+
+#add {
+	width: 100px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-right: 300px;
+	float: right;
+	font-size: 18px;
+}

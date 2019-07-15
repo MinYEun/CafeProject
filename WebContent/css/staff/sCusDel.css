@@ -1,0 +1,61 @@
+@charset "EUC-KR";
+
+h1 {
+	letter-spacing: 5px;
+} 
+
+.cus_del {
+		width: 1400px;
+		height: 810px;
+		float: right;
+		position: relative;
+		overflow: hidden;
+
+}
+
+#logo_img {
+	text-align: center;
+}
+
+.list_del > input {
+		margin: 25 5 25 0 ;
+		border: 0px;
+}
+
+
+.list_del {
+		display: inline-block;
+		width: 550px;
+		height: 80px;
+		border: 2px solid black;
+		border-radius: 20px;
+		padding: 50px;
+		text-align: center;
+		margin: 0 auto;
+		margin-left: 385px;
+		font-size: 20px;
+		
+
+}
+
+
+
+.btn_del {
+	width: 1400px;
+	text-align: right;
+}
+
+.btn_del > button{
+	width: 90px;
+	height: 50px;
+ 	float: right;
+ 	margin-right: 360px;
+ 	margin-top: 20px;
+	background-color: black;
+	color: white;
+	border:1px solid black;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+

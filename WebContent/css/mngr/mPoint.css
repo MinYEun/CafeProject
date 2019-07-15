@@ -1,0 +1,47 @@
+@charset "EUC-KR";
+
+h1{
+	letter-spacing: 5px;
+}
+.poi_sel{
+	width: 1300px;
+	height: 400px;
+	transform: translatex(20%);
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.cus_one_sel{
+	width: 500px;
+}
+
+#point{
+	width: 60%;
+	height: 500px;
+	text-align: center;
+	margin-left:150px;
+}
+
+#poi_inf{
+		width: 600px;
+		height: 150px;
+		border: 2px solid black;
+		border-radius: 20px;
+		padding: 10px;
+		padding-top: 40px;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 20px;
+}
+
+	
+#poi_inf > input{
+/* 	border: 0px;  디비 연동시 선 삭제하기 */
+	vertical-align: middle;
+	margin:20 0 20 0;
+}
+
+
+	
+

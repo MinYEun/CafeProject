@@ -1,0 +1,71 @@
+@charset "EUC-KR";
+
+h1 {
+	letter-spacing: 5px;
+}
+.stf_sel {
+	width: 1500px;
+	height: 100px;
+	transform: translatex(20%);
+	display: inline-block;
+	background-color: white;
+	margin-top: -9px;
+}
+
+.list_del>input {
+	margin: 25 5 25 0;
+	border: 0px;
+}
+
+.list_sel {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.list_sel>input {
+	margin: 25 5 25 0;
+	border: 0px;
+	border: 1px solid black;
+}
+
+.list_seldel {
+	display: inline-block;
+	width: 550px;
+	height: 80px;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 50px;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 385px;
+	font-size: 20px;
+}
+
+.btn_sel {
+	text-align: right;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.btn_sel {
+	text-align: center;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.btn_sel>button {
+	width: 90px;
+	height: 50px;
+	float: right;
+	margin-right: 360px;
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
